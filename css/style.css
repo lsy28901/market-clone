@@ -10,7 +10,7 @@ body {
 }
 
 .media-info-msg {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100vw;
@@ -18,12 +18,11 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	opacity: 1;
 	background-color: salmon;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
 	.media-info-msg {
-		opacity: 0;
+		display: none;
 	}
 }
