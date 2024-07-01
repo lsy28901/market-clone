@@ -29,6 +29,8 @@ const handleSubmit = async (event) => {
         if (data === '200') {
             alert('회원 가입에 성공했습니다.');
             window.location.pathname = "/login.html";
+        } else {
+            alert('회원가입에 실패했습니다.')
         }
 
     } else {
